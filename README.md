@@ -87,7 +87,7 @@ CSS
 - Most of the difficult work done with layout is done using frameworks.
 - Frameworks remove many burdens to frontend development including generic grids, mobile responsiveness via media queries, and starter UI elements.
 - Bootstrap is a front-end framework that incorporates a grid system, UI components, JavaScript widgets and more.
-- Let's take a look at the documentation: [http://getbootstrap.com/]().
+- Let's take a look at the documentation: [http://getbootstrap.com/](http://getbootstrap.com/).
 - The framework consists of one main CSS file, an optional theme CSS file, and a main JS file.
 - Bootstrap requires jQuery to work, which is a JavaScript framework.
 
