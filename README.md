@@ -135,3 +135,14 @@ CSS
 - Let's take a look at some of the bootstrap examples located [here](http://getbootstrap.com/getting-started/#examples).
 - We will code together the "Jumbotron Narrow" template located [here](http://getbootstrap.com/examples/jumbotron-narrow/).
 - Before we start, let's also plan out our grid system.
+
+##Importing the Bootstrap Library in to your Projects
+- Yesterday we learned what a CDN is and how to use it, specifically modeling the use of the Bootstrap CDN. 
+- Now, we will be learning how to import the Bootstrap library in to our projects. 
+- We will learn this by completing Exercise 8 in your RWD Book, on page 51. 
+
+##Pair Programming
+- What is it? Why do we care? When do we use this method? How is it executed?
+- We will be pair programming as we create the "Off Canvas" template located [here](http://getbootstrap.com/examples/offcanvas/). 
+- Once you successfully create this template with your partner, you will be adding the following JavaScript component (still in pairs):
+	- Modal 
