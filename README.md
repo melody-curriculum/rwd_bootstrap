@@ -1,19 +1,19 @@
-#Layout With HTML and CSS
+# Layout With HTML and CSS
 -
-##Quick Warmup
+## Quick Warmup
 - Let's use Codepen.io to practice CSS selectors.
 - Create at least one div with an id, and four divs with a class.
 - Use CSS to apply styling to the divs based on the id and class selectors.
 - Bonus: Try implementing one or more styles using a CSS3 selector (first-child, nth-child, first-of-type, etc).
 
-##Floats
+## Floats
 - Floating elements allows us to create a nearly unlimited number of layouts using all types of block elements.
 - Floating an element essentially removes it from the standard "flow" and places it to the left or right side of its container.
 - Elements can have fixed width, which will wrap underneath each other if the container is smaller than the combined widths.
 - You can also used percentage width, which will have the columns respond to the screen size.
 - You can tell already that the calculations can get out of hand really fast...
 
-##The Grid Layout
+## The Grid Layout
 - Most modern layouts operate on a standard 12-column grid system.
 - If you break down any of the websites you know and love you will notice many variations on the 12 column grid.
 - Each column in the grid can contain nested grids itself.
@@ -23,15 +23,15 @@
 - Here is a good pictorial to help you break it down:
 ![](img/grid.jpg)
 
-##Group Exercise
+## Group Exercise
 - In groups of two, look up one website of your choice.
 - Think about the layout they chose in terms of the grid system.
 - Write down which column "offsets" were likely used, and where nested grids may be present.
 
-##Code-Along: Let's Create Our Own Grid
+## Code-Along: Let's Create Our Own Grid
 - We will create a 2, 4, and 6 column grid.
 
-##CSS Media Queries
+## CSS Media Queries
 - Media queries allow you to apply and remove CSS styling based on the screen dimensions.
 - This is important to create truly mobile-friendly layouts.
 - To use it you have to specify screen resolution thresholds.
@@ -82,7 +82,7 @@ CSS
 ```
 - Good news! Bootstrap does this for you!
 
-##Twitter Bootstrap
+## Twitter Bootstrap
 - Advanced layout doesn't have to mean hard layout.
 - Most of the difficult work done with layout is done using frameworks.
 - Frameworks remove many burdens to frontend development including generic grids, mobile responsiveness via media queries, and starter UI elements.
@@ -91,12 +91,12 @@ CSS
 - The framework consists of one main CSS file, an optional theme CSS file, and a main JS file.
 - Bootstrap requires jQuery to work, which is a JavaScript framework.
 
-##Using Bootstrap
+## Using Bootstrap
 - To use Bootstrap you have to include the three required files.
 - Bootstrap files can be linked via the CDN provided, or downloaded locally onto the computer.
 - Remember to place your reference to the jQuery library above your reference to the Boostrap JS code.
 
-##Bootstrap Columns
+## Bootstrap Columns
 - Columns are written in this format as a class attribute: col-(breakpoint)-(offset).
 - An example of a three-column layout may be to use the class col-sm-4.
 - All columns should be wrapped into an element with a class of row.
@@ -116,32 +116,32 @@ CSS
 </div>
 
 ```
-##Breakpoints
+## Breakpoints
 - The way that Bootstrap works is to dynamically reduce column size according to the window size.
 - To be mobile-friendly, the columns will break into a stack layout after a minimum width is detected.
 - The breakpoints you can select in your columns control at which point this happens.
 - Check out their documentation [here](http://getbootstrap.com/css/#grid) to see what these breakpoints are in terms of size.
 
-##Code-Along
+## Code-Along
 - Let's create columns using Bootstrap. 
 - Let's also make sure to practice using different breakpoints.
 
-##UI Elements
+## UI Elements
 - Bootstrap wraps in a myriad of great UI elements that you can drop in anywhere on your site.
 - With Bootstrap you can make really pretty things quickly.
 - Let's look at some [examples](http://getbootstrap.com/components/).
 
-##Putting it Together
+## Putting it Together
 - Let's take a look at some of the bootstrap examples located [here](http://getbootstrap.com/getting-started/#examples).
 - We will code together the "Jumbotron Narrow" template located [here](http://getbootstrap.com/examples/jumbotron-narrow/).
 - Before we start, let's also plan out our grid system.
 
-##Importing the Bootstrap Library in to your Projects
+## Importing the Bootstrap Library in to your Projects
 - Yesterday we learned what a CDN is and how to use it, specifically modeling the use of the Bootstrap CDN. 
 - Now, we will be learning how to import the Bootstrap library in to our projects. 
 - We will learn this by completing Exercise 8 in your RWD Book, on page 51. 
 
-##Pair Programming
+## Pair Programming
 - What is it? Why do we care? When do we use this method? How is it executed?
 - We will be pair programming as we create the "Off Canvas" template located [here](http://getbootstrap.com/examples/offcanvas/). 
 - Once you successfully create this template with your partner, you will be adding the following JavaScript component (still in pairs):
